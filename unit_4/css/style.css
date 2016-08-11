@@ -1,0 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700italic);
+@import url(https://fonts.googleapis.com/css?family=Lora);
+
+body {
+	background: #FF8987 ;
+	color: #7F0D00;
+
+}
+h1 {
+	color: #540086;
+	font-family: 'Karla', sans-serif;
+}
+
+#slogan {
+	font-style:italic;
+}
+
+img  {
+	width: 25%;
+}
+
+p, ul {
+	font-family: 'Lora', serif;
+
+}
+
