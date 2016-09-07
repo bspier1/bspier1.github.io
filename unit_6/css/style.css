@@ -18,6 +18,7 @@ NAV {
 	font-size: 1.2em;
 	font-weight: bold;
 	text-transform: uppercase;
+	padding: .1em 0 .2em 0;
 
 }
 
@@ -41,19 +42,37 @@ h2 {
 	font-family: 'Karla', sans-serif;
 }
 
-#recipe, #editorial, #record, #music {
-    background-color: #FFE2B8;  /* to use later #0C1A21 */
+ #record, #music, #editorial, #recipe {
+    background-color: #221F36; 
     border: 1px black solid;
-    padding: 20px;
+    margin: .25%;
+    float: left;
+    width: 25%;
+    padding: .25%;
+
 }
 
 .features {
-	width: 20em;
+	width: 100%;
+
 }
 
 
+#column_one,  #column_two {
+	margin: .5% .5% 1% .5% ;  
+}
 
-header {
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+/*header {
     background-color: #FFED74;
     border: 1px black solid;
     padding: 20px;
@@ -63,5 +82,5 @@ nav {
     background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
-}
+}*/
 
